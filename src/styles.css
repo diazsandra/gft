@@ -1,0 +1,98 @@
+    body {
+        background-color: #0b3b8e;
+        overflow: hidden;
+    }
+    
+    .main-container {
+        margin-top: 25px;
+    }
+    /* NAV */
+    
+    .navbar-light {
+        background-color: #fbfcff !important;
+        font-weight: bold;
+    }
+    
+    .btn-outline-primary {
+        color: #042f82;
+        border-color: #042f82;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .btn-outline-primary:hover {
+        color: #fff;
+        background-image: linear-gradient(to right, #042f82, #3989cc);
+        border-color: #fbfcff;
+        background-color: #042c81;
+        transition: 2s background-image;
+    }
+    
+    .btn-outline-primary.focus,
+    .btn-outline-primary:focus {
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+    }
+    /* HOME */
+    
+    .c-figure--stage-video {
+        overflow: hidden;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .video__film {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .txt-ttl {
+        margin-top: 20%;
+        text-align: center;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    
+    .txt-ttl h1 {
+        font-size: 3.5em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    /* PERFIL */
+    
+    .sub-ttl {
+        text-align: center;
+        margin: 45px auto;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .img-profile {
+        margin: 5% 22.5%;
+        width: 55%;
+        border-radius: 50%;
+    }
+    /* MEDIA QUERIES*/
+    
+    @media (max-width: 1024px) {
+        body {
+            overflow-y: scroll;
+        }
+        .c-figure--stage-video {
+            background-image: url("https://www.gft.com/.imaging/mte/gft-theme/1536x1200_2x/dam/Images/Website-Admin-Images/Stage-Header/Home/Stage-Home/jcr:content/Stage_Home.png");
+            background-position: center;
+            background-repeat: repeat;
+            background-size: contain;
+            padding: 20px;
+        }
+        .video__film {
+            display: none;
+        }
+    }
